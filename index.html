@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #f0f0f0;
+            margin-bottom: 20px;
+        }
+
+        .profile-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .profile-nickname {
+            font-size: 20px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        .profile-basics {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .basic-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px;
+            flex-basis: calc(50% - 20px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-top: 25px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #e6f3ff;
+            color: #3498db;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #2980b9;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #3498db;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 5px;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .contact-icon {
+            margin-right: 10px;
+            color: #3498db;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="picture.jpg" alt="个人照片" class="profile-photo">
+            <h1 class="profile-name">陈亚凡</h1>
+            <p class="profile-nickname">@ming001</p>
+        </div>
+
+        <div class="profile-basics">
+            <div class="basic-info">
+                <h3>基本信息</h3>
+                <p>性别：男</p>
+                <p>年龄：23岁</p>
+                <p>职业：学生</p>
+                <p>居住地：泰安</p>
+            </div>
+            <div class="basic-info">
+                <h3>教育背景</h3>
+                <p>聊城大学 - 计算机科学与技术 (2020-2024)</p>
+                <p>山东师范大学 - 计算机科学与技术 (2024-2025)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>个人简介</h2>
+            <p>我是一名研一学生，目前从事医疗领域方面的研究，对科研充满热爱，喜欢打羽毛球</p>
+        </div>
+
+        <div class="section">
+            <h2>工作经历</h2>
+            <div class="experience">
+                <h3>无</h3>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>专业技能</h2>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">deeplearning</span>
+                <span class="skill">KG</span>
+                <span class="skill">python</span>
+                <span class="skill">等......</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>兴趣爱好</h2>
+            <ul>
+                <li>打羽毛球</li>
+                <li>徒步旅行与摄影</li>
+                <li>阅读科技书籍和论文</li>
+                <li>参加技术分享和开源活动</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <span>2242592433@qq.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <span>+86 17861816817</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-weixin"></i></a>
+            <a href="#"><i class="fab fa-weibo"></i></a>
+        </div>
+    </div>
+</body>
+</html>
